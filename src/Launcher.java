@@ -13,6 +13,8 @@ public class Launcher {
                 System.out.println("Choose a n value !");
                 int n = scanner.nextInt();
                 System.out.println("Fibo(" + n + ") = " + Fibo.fibo(n));
+            } else if (scanner.next().equals("freq")) {
+                System.out.println("Select a valid file path");
             } else {
                 System.out.println("Unknow Command");
             }
